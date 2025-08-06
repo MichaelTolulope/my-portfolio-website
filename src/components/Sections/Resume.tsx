@@ -120,7 +120,7 @@ const Resume: React.FC = () => {
       x: 0,
       transition: {
         duration: 0.6,
-        ease: "easeOut"
+        ease: [0.6, -0.05, 0.01, 0.99]
       }
     }
   };
@@ -280,7 +280,7 @@ const Resume: React.FC = () => {
                   "Java Programming Certification",
                   "Web Development Professional",
                   "Database Management Systems"
-                ].map((cert, index) => (
+                ].map((cert) => (
                   <motion.div
                     key={cert}
                     whileHover={{ x: 5 }}

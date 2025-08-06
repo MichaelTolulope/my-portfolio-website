@@ -59,7 +59,7 @@ const Skills: React.FC = () => {
       x: 0,
       transition: {
         duration: 0.6,
-        ease: "easeOut"
+        ease: [0.6, -0.05, 0.01, 0.99]
       }
     }
   };
@@ -70,7 +70,7 @@ const Skills: React.FC = () => {
       width: `${level}%`,
       transition: {
         duration: 1.5,
-        ease: "easeOut",
+        ease: [0.6, -0.05, 0.01, 0.99],
         delay: 0.5
       }
     })
@@ -95,7 +95,7 @@ const Skills: React.FC = () => {
         </motion.div>
 
         <div className="grid lg:grid-cols-3 gap-8">
-          {categories.map((category, categoryIndex) => (
+          {categories.map((category) => (
             <motion.div
               key={category}
               variants={containerVariants}
@@ -113,7 +113,7 @@ const Skills: React.FC = () => {
               <div className="space-y-4">
                 {skills
                   .filter(skill => skill.category === category)
-                  .map((skill, index) => (
+                  .map((skill) => (
                     <motion.div
                       key={skill.name}
                       variants={itemVariants}
