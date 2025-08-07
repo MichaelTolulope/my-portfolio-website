@@ -6,8 +6,8 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/michaelolagnju', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/michael-olagunju', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/michaeltolulope', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/michael-olagunju-a8616a279', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:olagunjum99@gmail.com', label: 'Email' },
   ];
 

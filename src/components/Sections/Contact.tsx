@@ -84,7 +84,7 @@ const Contact: React.FC = () => {
       y: 0,
       transition: {
         duration: 0.6,
-        ease: "easeOut"
+        ease: "easeOut" as const
       }
     }
   };
@@ -128,7 +128,7 @@ const Contact: React.FC = () => {
             </motion.div>
 
             <div className="space-y-6">
-              {contactInfo.map((info, index) => (
+              {contactInfo.map((info) => (
                 <motion.a
                   key={info.label}
                   href={info.href}
