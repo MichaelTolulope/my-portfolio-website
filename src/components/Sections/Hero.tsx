@@ -82,11 +82,11 @@ const Hero: React.FC = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/michaelolagnju', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/michael-olagunju', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/michaeltolulope', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/michael-olagunju-a8616a279', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:olagunjum99@gmail.com', label: 'Email' },
   ];
-
+ 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}

@@ -59,7 +59,7 @@ const Skills: React.FC = () => {
       x: 0,
       transition: {
         duration: 0.6,
-        ease: [0.6, -0.05, 0.01, 0.99]
+        ease: "easeOut" as const
       }
     }
   };
@@ -70,7 +70,7 @@ const Skills: React.FC = () => {
       width: `${level}%`,
       transition: {
         duration: 1.5,
-        ease: [0.6, -0.05, 0.01, 0.99],
+        ease: "easeOut" as const,
         delay: 0.5
       }
     })
