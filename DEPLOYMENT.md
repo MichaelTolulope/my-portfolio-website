@@ -32,6 +32,15 @@ If you see "Port scan timeout reached, no open ports detected on 0.0.0.0":
 - Check that the PORT environment variable is set
 - Verify the application binds to `0.0.0.0:$PORT`
 
+#### Host Blocking Issues
+If you see "This host is not allowed" error:
+- The Vite config is set to allow all hosts in production mode
+- For development, specific domains are whitelisted including:
+  - `tolulope-dev.onrender.com`
+  - All `.onrender.com` subdomains
+  - Vercel and Netlify domains
+- In production mode, all hosts are automatically allowed
+
 #### Build Failures
 - Check Node.js version compatibility
 - Ensure all dependencies are installed
