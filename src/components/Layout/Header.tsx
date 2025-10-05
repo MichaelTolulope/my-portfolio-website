@@ -47,7 +47,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           : 'bg-transparent'
       }`}
     >
-      <nav className="container-custom flex items-center justify-between py-4">
+      <nav className="container-custom flex items-center justify-between p-4">
         {/* Logo */}
         <motion.div
           whileHover={{ scale: 1.05 }}
