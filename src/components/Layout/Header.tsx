@@ -104,7 +104,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           opacity: isMobileMenuOpen ? 1 : 0,
           height: isMobileMenuOpen ? 'auto' : 0,
         }}
-        className="md:hidden bg-white dark:bg-dark-900 border-t border-gray-200 dark:border-dark-700 overflow-hidden"
+        className="md:hidden bg-white dark:bg-dark-900 border-t border-gray-200 dark:border-dark-700 overflow-hidden px-3"
       >
         <div className="container-custom py-4 space-y-4">
           {navItems.map((item, index) => (

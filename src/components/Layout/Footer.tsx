@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
     <footer className="bg-gray-900 dark:bg-dark-950 text-white">
       <div className="container-custom">
         {/* Main Footer Content */}
-        <div className="py-12 grid md:grid-cols-3 gap-8">
+        <div className="py-12 px-3 md:px-12 grid md:grid-cols-3 gap-8">
           {/* Brand & Description */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
