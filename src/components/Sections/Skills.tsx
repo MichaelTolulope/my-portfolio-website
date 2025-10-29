@@ -26,7 +26,7 @@ const Skills: React.FC = () => {
     { name: "Express.js", level: 88, category: "Backend" },
     { name: "Python", level: 85, category: "Backend" },
     { name: "Java", level: 80, category: "Backend" },
-    { name: "Spring Boot", level: 75, category: "Backend" }
+    { name: "Spring Boot", level: 75, category: "Backend" },
 
     // Database & Cloud
     { name: "MongoDB", level: 85, category: "Tools" },
