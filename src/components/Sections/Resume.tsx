@@ -84,14 +84,14 @@ const Resume: React.FC = () => {
       school: "Miva Open University",
       location: "Nigeria",
       period: "May 2025 - Ongoing",
-      gpa: "In Progress"
+      gpa: "4.94"
     },
     {
       degree: "Professional Diploma in Full Stack Development (Software Engineering)",
       school: "NIIT",
       location: "Nigeria",
       period: "Jan 2022 - March 2024",
-      gpa: "Completed"
+      gpa: "3.00"
     }
   ];
 
@@ -243,7 +243,7 @@ const Resume: React.FC = () => {
               </h3>
               
               {education.map((edu, index) => (
-                <div key={index} className="card p-6">
+                <div key={index} className="card p-6 mb-6">
                   <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                     {edu.degree}
                   </h4>

@@ -75,9 +75,9 @@ const About: React.FC = () => {
                 whileHover={{ scale: 1.05 }}
                 className="relative w-full max-w-md mx-auto aspect-square rounded-2xl bg-gradient-to-br from-primary to-accent p-1"
               >
-                <div className="w-full h-full overflow-hidden rounded-2xl bg-gray-200 dark:bg-dark-700 flex items-center justify-center">
+                <div className="w-full h-full overflow-hidden rounded-2xl bg-gray-200 dark:bg-dark-700 flex items-start justify-center">
                   <span className="text-gray-500 dark:text-gray-400 text-lg">
-                    <img src={me} alt=""  className='object-cover w-full h-full '/>
+                    <img src={me} alt=""  className='object-cover w-full h-full'/>
                   </span>
                 </div>
               </motion.div>
