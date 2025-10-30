@@ -98,8 +98,8 @@ const Resume: React.FC = () => {
   const handleDownloadResume = () => {
     // In a real application, this would download the actual resume file
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // Path to your resume file
-    link.download = 'Your_Name_Resume.pdf';
+    link.href = '../../assets/Resume-Michael-Olagunju.pdf';
+    link.download = 'Michael-Tolulope-Olagunju_Resume.pdf';
     link.click();
   };
 
