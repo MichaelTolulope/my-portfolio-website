@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Download, Calendar, MapPin, ExternalLink } from 'lucide-react';
+import resume from '../../assets/Resume-Michael-Olagunju.pdf';
 
 interface Experience {
   title: string;
@@ -98,7 +99,7 @@ const Resume: React.FC = () => {
   const handleDownloadResume = () => {
     // In a real application, this would download the actual resume file
     const link = document.createElement('a');
-    link.href = '../../assets/Resume-Michael-Olagunju.pdf';
+    link.href = resume;
     link.download = 'Michael-Tolulope-Olagunju_Resume.pdf';
     link.click();
   };
