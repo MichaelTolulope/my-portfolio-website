@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Heart, ArrowUp } from 'lucide-react';
+import { Github, Linkedin, Mail, Heart, ArrowUp, MessageCircle } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -9,6 +9,8 @@ const Footer: React.FC = () => {
     { icon: Github, href: 'https://github.com/michaeltolulope', label: 'GitHub' },
     { icon: Linkedin, href: 'https://linkedin.com/in/michael-olagunju-a8616a279', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:olagunjum99@gmail.com', label: 'Email' },
+    { icon: MessageCircle, href: 'https://wa.me/2348159538275?text=Hello%20I%20got%20your%20contact%20from%20the%20website', label: 'Whatsapp' }
+
   ];
 
   const scrollToTop = () => {
