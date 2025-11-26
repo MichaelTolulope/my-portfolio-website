@@ -1,6 +1,9 @@
 import React, { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { ExternalLink, Github, Eye } from 'lucide-react';
+import troco from '../../assets/troco.png'
+import suhstei from '../../assets/suhstei.png'
+import star_taskz from '../../assets/star-taskz.png'
 
 interface Project {
   id: number;
@@ -23,7 +26,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: "Task & Project Management Solution Backend",
       description: "A comprehensive task and project management web app with real-time updates, user roles, and notifications. Built to streamline task assignment, progress tracking, and team collaboration.",
-      image: "/assets/star-taskz.png",
+      image: star_taskz,
       technologies: ["Node.js", "Express", "MongoDB", "Socket.io", "Open AI"],
       githubUrl: "https://github.com/MichaelTolulope/star-taskz-backendv2",
       liveUrl: "https://star-taskz.vercel.app", 
@@ -33,7 +36,7 @@ const Projects: React.FC = () => {
       id: 2,
       title: "Suhstei",
       description: "Connect with fellow book lovers. Lend, borrow, and gift books in your neighborhood. Turn your bookshelf into a community library.",
-      image: "/assets/suhstei.png",
+      image: suhstei,
       technologies: ["React js", "NodeJs", "Socket.io", "MongoDB"],
       githubUrl: "https://github.com/dejetem/bookworm-client",
       liveUrl: "https://bookworm-client.onrender.com",
@@ -51,13 +54,13 @@ const Projects: React.FC = () => {
     },
     {
       id: 4,
-      title: "Scientific Calculator App",
-      description: "A Java-based Scientific Calculator with advanced mathematical functions including trigonometric, logarithmic, and exponential operations. Built with JavaFX for an intuitive GUI.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Java", "JavaFX", "OOP", "Exception Handling"],
-      githubUrl: "https://github.com/michaelolagnju",
-      liveUrl: "https://calculator-demo.com",
-      category: "frontend"
+      title: "Troco Escro App",
+      description: "This software makes sure that your transactions are easy and your money is safe with its user-friendly UI, cutting-edge security measures, and smooth experience.",
+      image: troco,
+      technologies: ["Next Js", "Flutter"],
+      githubUrl: "https://github.com/MichaelTolulope/troco-admin",
+      liveUrl: "https://www.troco.ng",
+      category: "frontend and mobile app"
     },
     {
       id: 5,
