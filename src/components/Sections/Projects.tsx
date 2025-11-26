@@ -291,12 +291,12 @@ const Projects: React.FC = () => {
             </motion.div>
           ))}
         </motion.div>
-      </div>
-      <div className="mt-6 p-4 rounded-xl bg-white/5 border border-white/10 text-sm text-gray-300 backdrop-blur">
-        <p className="leading-relaxed">
-          Note: Some projects have no images, live demos, or repo links because they
-          are not yet launched or protected under NDA. Thanks for your understanding.
-        </p>
+        <div className="mt-6 p-4 rounded-xl bg-white/5 border border-white/10 text-sm text-gray-300 backdrop-blur">
+          <p className="leading-relaxed">
+            Note: Some projects have no images, live demos, or repo links because they
+            are not yet launched or protected under NDA. Thanks for your understanding.
+          </p>
+        </div>
       </div>
     </section>
   );
