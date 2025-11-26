@@ -4,6 +4,8 @@ import { ExternalLink, Github, Eye } from 'lucide-react';
 import troco from '../../assets/troco.png'
 import suhstei from '../../assets/suhstei.png'
 import star_taskz from '../../assets/star-taskz.png'
+import mydahsoft from '../../assets/mydahsoft.png'
+import tedlab from '../../assets/tedlab.png'
 
 interface Project {
   id: number;
@@ -64,12 +66,12 @@ const Projects: React.FC = () => {
     },
     {
       id: 5,
-      title: "Learning Management System (LMS)",
+      title: "Mydahsoft Academy Learning Management System (LMS)",
       description: "A comprehensive LMS platform with course management, student tracking, content delivery, and progress analytics for educational institutions.",
-      image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "PostgreSQL", "AWS S3", "Socket.io"],
-      githubUrl: "https://github.com/michaelolagnju",
-      liveUrl: "https://lms-demo.com",
+      image: mydahsoft,
+      technologies: ["Wordpress", "WooCommerce","Paystack"],
+      githubUrl: "https://github.com/MichaelTolulopes",
+      liveUrl: "https://mydahsoftacademy.com",
       category: "fullstack"
     },
     {
@@ -80,6 +82,16 @@ const Projects: React.FC = () => {
       technologies: ["React", "Next.js", "Strapi CMS", "PayPal API", "Vercel"],
       githubUrl: "https://github.com/michaelolagnju",
       liveUrl: "https://ngo-demo.com",
+      category: "frontend"
+    },
+    {
+      id: 7,
+      title: "Ted Lab Website",
+      description: "A company that offers varieties of tech services.",
+      image: tedlab,
+      technologies: ["React", "Next.js", "Strapi CMS", "PayPal API", "Vercel"],
+      githubUrl: "https://github.com/MichaelTolulope",
+      liveUrl: "#",
       category: "frontend"
     }
   ];
