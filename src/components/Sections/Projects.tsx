@@ -21,28 +21,28 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Task & Project Management Solution",
+      title: "Task & Project Management Solution Backend",
       description: "A comprehensive task and project management web app with real-time updates, user roles, and notifications. Built to streamline task assignment, progress tracking, and team collaboration.",
-      image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
-      githubUrl: "https://github.com/michaelolagnju",
-      liveUrl: "https://taskmanager-demo.com",
-      category: "fullstack"
+      image: "/assets/star-taskz.png",
+      technologies: ["Node.js", "Express", "MongoDB", "Socket.io", "Open AI"],
+      githubUrl: "https://github.com/MichaelTolulope/star-taskz-backendv2",
+      liveUrl: "https://star-taskz.vercel.app", 
+      category: "backend"
     },
     {
       id: 2,
-      title: "School Management System",
-      description: "A web-based School Management System with student enrollment, teacher management, and course administration. Features dynamic pages and comprehensive database connectivity.",
-      image: "/api/placeholder/600/400",
-      technologies: ["Java", "JSP", "Servlets", "JDBC", "MySQL"],
-      githubUrl: "https://github.com/michaelolagnju",
-      liveUrl: "https://school-management-demo.com",
+      title: "Suhstei",
+      description: "Connect with fellow book lovers. Lend, borrow, and gift books in your neighborhood. Turn your bookshelf into a community library.",
+      image: "/assets/suhstei.png",
+      technologies: ["React js", "NodeJs", "Socket.io", "MongoDB"],
+      githubUrl: "https://github.com/dejetem/bookworm-client",
+      liveUrl: "https://bookworm-client.onrender.com",
       category: "fullstack"
     },
     {
       id: 3,
-      title: "E-commerce Website",
-      description: "A fully functional online store with product listings, shopping cart, payment integration, and admin panel for inventory management.",
+      title: "Quick Basket",
+      description: "A fully functional online store for food with product listings, shopping cart, payment integration, and admin panel for inventory management.",
       image: "/api/placeholder/600/400",
       technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
       githubUrl: "https://github.com/michaelolagnju",

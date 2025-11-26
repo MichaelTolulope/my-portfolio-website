@@ -37,7 +37,7 @@ const Contact: React.FC = () => {
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Nigeria',
+      value: 'Lagos, Nigeria',
       href: '#'
     }
   ];
