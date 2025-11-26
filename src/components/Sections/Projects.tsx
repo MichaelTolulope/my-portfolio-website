@@ -90,7 +90,7 @@ const Projects: React.FC = () => {
       title: "Ted Lab Website",
       description: "A company that offers varieties of tech services.",
       image: tedlab,
-      technologies: ["React", "Next.js", "Strapi CMS", "PayPal API", "Vercel"],
+      technologies: ["React", "Next.js", "PayPal API", "Vercel"],
       githubUrl: "https://github.com/MichaelTolulope",
       liveUrl: "#",
       category: "frontend"
