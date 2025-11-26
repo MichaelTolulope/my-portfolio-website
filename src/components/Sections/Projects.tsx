@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
       image: star_taskz,
       technologies: ["Node.js", "Express", "MongoDB", "Socket.io", "Open AI"],
       githubUrl: "https://github.com/MichaelTolulope/star-taskz-backendv2",
-      liveUrl: "https://star-taskz.vercel.app", 
+      liveUrl: "https://star-taskz.vercel.app",
       category: "backend"
     },
     {
@@ -70,7 +70,7 @@ const Projects: React.FC = () => {
       title: "Mydahsoft Academy Learning Management System (LMS)",
       description: "A comprehensive LMS platform with course management, student tracking, content delivery, and progress analytics for educational institutions.",
       image: mydahsoft,
-      technologies: ["Wordpress", "WooCommerce","Paystack"],
+      technologies: ["Wordpress", "WooCommerce", "Paystack"],
       githubUrl: "https://github.com/MichaelTolulopes",
       liveUrl: "https://mydahsoftacademy.com",
       category: "fullstack"
@@ -114,8 +114,8 @@ const Projects: React.FC = () => {
     { id: 'fullstack', name: 'Full Stack' }
   ];
 
-  const filteredProjects = filter === 'all' 
-    ? projects 
+  const filteredProjects = filter === 'all'
+    ? projects
     : projects.filter(project => project.category === filter);
 
   const containerVariants = {
@@ -169,11 +169,10 @@ const Projects: React.FC = () => {
             <button
               key={category.id}
               onClick={() => setFilter(category.id)}
-              className={`px-6 py-3 rounded-xl font-medium transition-all duration-300 ${
-                filter === category.id
+              className={`px-6 py-3 rounded-xl font-medium transition-all duration-300 ${filter === category.id
                   ? 'bg-primary text-white shadow-lg'
                   : 'bg-white dark:bg-dark-800 text-gray-700 dark:text-gray-300 hover:bg-primary hover:text-white'
-              }`}
+                }`}
             >
               {category.name}
             </button>
@@ -197,9 +196,21 @@ const Projects: React.FC = () => {
               {/* Project Image */}
               <div className="relative overflow-hidden rounded-t-2xl">
                 <div className="w-full h-48 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                  <span className="text-gray-500 dark:text-gray-400">Project Image</span>
+                  <div className="relative overflow-hidden rounded-t-2xl">
+                    {project.image ? (
+                      <img
+                        src={project.image}
+                        alt={project.title || "Project Image"}
+                        className="w-full h-48 object-cover"
+                      />
+                    ) : (
+                      <div className="w-full h-48 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
+                        <span className="text-gray-500 dark:text-gray-400">Project Image</span>
+                      </div>
+                    )}
+                  </div>
                 </div>
-                
+
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center space-x-4">
                   <motion.a
@@ -230,7 +241,7 @@ const Projects: React.FC = () => {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
                   {project.title}
                 </h3>
-                
+
                 <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
                   {project.description}
                 </p>
