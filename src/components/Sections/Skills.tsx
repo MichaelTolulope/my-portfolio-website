@@ -25,6 +25,7 @@ const Skills: React.FC = () => {
     { name: "Node.js", level: 90, category: "Backend" },
     { name: "Express.js", level: 88, category: "Backend" },
     { name: "Python", level: 85, category: "Backend" },
+    { name: "Fast Api", level: 60, category: "Backend" },
     { name: "Java", level: 80, category: "Backend" },
     { name: "Spring Boot", level: 75, category: "Backend" },
 
@@ -34,6 +35,7 @@ const Skills: React.FC = () => {
     { name: "MySQL", level: 85, category: "Tools" },
     { name: "AWS (EC2, S3)", level: 75, category: "Tools" },
     { name: "Firebase", level: 80, category: "Tools" },
+    { name: "Redis", level: 60, category: "Tools" },
     { name: "Git", level: 95, category: "Tools" },
     { name: "Docker", level: 70, category: "Tools" },
     { name: "Vercel", level: 85, category: "Tools" }
@@ -172,8 +174,8 @@ const Skills: React.FC = () => {
           
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              "HTML5", "CSS3", "SASS", "REST APIs", "JDBC", "JavaFX",
-              "Postman", "Cloudinary", "Render", "Heroku", "Agile", "Scrum"
+              "Springboot", "Redis", "Next Js", "Tailwind", "REST APIs", "Node Js", "Web Sockets",
+              "Postman", "Cloudinary", "AWS", "Google Cloud", "Github Action", "Render", "Heroku", "Agile", "Scrum"
             ].map((tech, index) => (
               <motion.span
                 key={tech}
