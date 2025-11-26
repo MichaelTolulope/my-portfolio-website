@@ -60,7 +60,7 @@ const Projects: React.FC = () => {
       technologies: ["Next Js", "Flutter"],
       githubUrl: "https://github.com/MichaelTolulope/troco-admin",
       liveUrl: "https://www.troco.ng",
-      category: "frontend and mobile app"
+      category: "frontend"
     },
     {
       id: 5,
