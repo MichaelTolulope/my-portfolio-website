@@ -12,7 +12,7 @@ interface Project {
   id: number;
   title: string;
   description: string;
-  image: string;
+  image?: string;
   technologies: string[];
   githubUrl: string;
   liveUrl: string;
@@ -79,7 +79,7 @@ const Projects: React.FC = () => {
       id: 6,
       title: "NGO Website Platform",
       description: "Multiple NGO websites built for awareness campaigns, donation management, and volunteer coordination with CMS integration and responsive design.",
-      image: "/api/placeholder/600/400",
+      
       technologies: ["React", "Next.js", "Strapi CMS", "PayPal API", "Vercel"],
       githubUrl: "https://github.com/michaelolagnju",
       liveUrl: "https://ngo-demo.com",
@@ -97,6 +97,16 @@ const Projects: React.FC = () => {
     },
     {
       id: 8,
+      title: "Ted Finance",
+      description: "A multi currency fintech solution Start-up",
+  
+      technologies: ["React", "Next.js", "PayPal API", "Vercel"],
+      githubUrl: "https://github.com/MichaelTolulope",
+      liveUrl: "#",
+      category: "frontend"
+    },
+    {
+      id: 9,
       title: "DWM Church Website",
       description: "A church website.",
       image: dwm,
@@ -195,20 +205,18 @@ const Projects: React.FC = () => {
             >
               {/* Project Image */}
               <div className="relative overflow-hidden rounded-t-2xl">
-                <div className="w-full h-48 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                  <div className="relative overflow-hidden rounded-t-2xl">
-                    {project.image ? (
-                      <img
-                        src={project.image}
-                        alt={project.title || "Project Image"}
-                        className="w-full h-48 object-cover"
-                      />
-                    ) : (
-                      <div className="w-full h-48 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                        <span className="text-gray-500 dark:text-gray-400">Project Image</span>
-                      </div>
-                    )}
-                  </div>
+                <div className="relative overflow-hidden rounded-t-2xl">
+                  {project.image ? (
+                    <img
+                      src={project.image}
+                      alt={project.title || "Project Image"}
+                      className="w-full h-48 object-cover"
+                    />
+                  ) : (
+                    <div className="w-full h-48 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
+                      <span className="text-gray-500 dark:text-gray-400">Project Image</span>
+                    </div>
+                  )}
                 </div>
 
                 {/* Overlay */}
