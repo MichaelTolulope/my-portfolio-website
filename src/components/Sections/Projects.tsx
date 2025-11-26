@@ -6,6 +6,7 @@ import suhstei from '../../assets/suhstei.png'
 import star_taskz from '../../assets/star-taskz.png'
 import mydahsoft from '../../assets/mydahsoft.png'
 import tedlab from '../../assets/tedlab.png'
+import dwm from '../../assets/dwm.png'
 
 interface Project {
   id: number;
@@ -93,6 +94,16 @@ const Projects: React.FC = () => {
       githubUrl: "https://github.com/MichaelTolulope",
       liveUrl: "#",
       category: "frontend"
+    },
+    {
+      id: 8,
+      title: "DWM Church Website",
+      description: "A church website.",
+      image: dwm,
+      technologies: ["React", "Supabase"],
+      githubUrl: "https://github.com/MichaelTolulope",
+      liveUrl: "https://dwm-globe.onrender.com",
+      category: "fullstack"
     }
   ];
 
