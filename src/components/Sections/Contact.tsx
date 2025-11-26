@@ -54,8 +54,12 @@ const Contact: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    const whatsappNumber = "2348159538275";
+
+    const text = `Hello, my name is ${formData.name}.%0AEmail: ${formData.email}.%0A%0A${formData.message}`;
+
+    const url = `https://wa.me/${whatsappNumber}?text=${text}`;
+     window.open(url, "_blank");
     
     setIsSubmitting(false);
     setIsSubmitted(true);
