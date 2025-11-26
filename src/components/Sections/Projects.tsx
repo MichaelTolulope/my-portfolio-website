@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
       id: 3,
       title: "Quick Basket",
       description: "A fully functional online store for food with product listings, shopping cart, payment integration, and admin panel for inventory management.",
-      image: "/api/placeholder/600/400",
+
       technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
       githubUrl: "https://github.com/michaelolagnju",
       liveUrl: "https://ecommerce-demo.com",
@@ -79,7 +79,7 @@ const Projects: React.FC = () => {
       id: 6,
       title: "NGO Website Platform",
       description: "Multiple NGO websites built for awareness campaigns, donation management, and volunteer coordination with CMS integration and responsive design.",
-      
+
       technologies: ["React", "Next.js", "Strapi CMS", "PayPal API", "Vercel"],
       githubUrl: "https://github.com/michaelolagnju",
       liveUrl: "https://ngo-demo.com",
@@ -90,7 +90,7 @@ const Projects: React.FC = () => {
       title: "Ted Lab Website",
       description: "A company that offers varieties of tech services.",
       image: tedlab,
-      technologies: ["React", "Next.js", "PayPal API", "Vercel"],
+      technologies: ["React", "Next.js", "Vercel"],
       githubUrl: "https://github.com/MichaelTolulope",
       liveUrl: "#",
       category: "frontend"
@@ -99,8 +99,8 @@ const Projects: React.FC = () => {
       id: 8,
       title: "Ted Finance",
       description: "A multi currency fintech solution Start-up",
-  
-      technologies: ["React", "Next.js", "PayPal API", "Vercel"],
+
+      technologies: ["React", "Next.js"],
       githubUrl: "https://github.com/MichaelTolulope",
       liveUrl: "#",
       category: "frontend"
@@ -180,8 +180,8 @@ const Projects: React.FC = () => {
               key={category.id}
               onClick={() => setFilter(category.id)}
               className={`px-6 py-3 rounded-xl font-medium transition-all duration-300 ${filter === category.id
-                  ? 'bg-primary text-white shadow-lg'
-                  : 'bg-white dark:bg-dark-800 text-gray-700 dark:text-gray-300 hover:bg-primary hover:text-white'
+                ? 'bg-primary text-white shadow-lg'
+                : 'bg-white dark:bg-dark-800 text-gray-700 dark:text-gray-300 hover:bg-primary hover:text-white'
                 }`}
             >
               {category.name}
@@ -291,6 +291,12 @@ const Projects: React.FC = () => {
             </motion.div>
           ))}
         </motion.div>
+      </div>
+      <div className="mt-6 p-4 rounded-xl bg-white/5 border border-white/10 text-sm text-gray-300 backdrop-blur">
+        <p className="leading-relaxed">
+          Note: Some projects have no images, live demos, or repo links because they
+          are not yet launched or protected under NDA. Thanks for your understanding.
+        </p>
       </div>
     </section>
   );
