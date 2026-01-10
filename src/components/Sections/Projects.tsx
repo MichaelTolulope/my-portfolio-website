@@ -92,7 +92,7 @@ const Projects: React.FC = () => {
       image: tedlab,
       technologies: ["React", "Next.js", "Vercel"],
       githubUrl: "https://github.com/MichaelTolulope",
-      liveUrl: "#",
+      liveUrl: "https://www.tedlab.co",
       category: "frontend"
     },
     {
