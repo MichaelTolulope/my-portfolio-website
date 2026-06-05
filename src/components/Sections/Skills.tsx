@@ -19,7 +19,7 @@ const Skills: React.FC = () => {
     { name: "TypeScript", level: 85, category: "Frontend" },
     { name: "Next.js", level: 80, category: "Frontend" },
     { name: "React Native", level: 75, category: "Frontend" },
-    { name: "Flutter", level: 70, category: "Frontend" },
+    { name: "Wordpress", level: 70, category: "Frontend" },
 
     // Backend
     { name: "Node.js", level: 90, category: "Backend" },
