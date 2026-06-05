@@ -128,7 +128,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.6 }}
             className="text-2xl md:text-3xl lg:text-4xl font-semibold text-gray-700 dark:text-gray-300"
           >
-            Full-Stack Developer
+            Software Engineer
           </motion.h2>
 
           {/* Description */}

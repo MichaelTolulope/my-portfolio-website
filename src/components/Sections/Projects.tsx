@@ -297,7 +297,7 @@ const Projects: React.FC = () => {
                     className="flex items-center space-x-2 text-primary hover:text-primary/80 transition-colors duration-300"
                   >
                     <ExternalLink size={16} />
-                    <span>Live Demo</span>
+                    <span>Live link</span>
                   </a>
                   <a
                     href={project.githubUrl}

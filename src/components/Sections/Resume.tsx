@@ -26,23 +26,35 @@ const Resume: React.FC = () => {
 
   const experiences: Experience[] = [
     {
-      title: "IT Executive",
-      company: "OTL AFRICA DOWNSTREAM",
+      title: "Backend Engineer",
+      company: "Groom",
+      location: "Nigeria",
+      period: "2026 - Present",
+      description: [
+        "Built and maintained scalable NestJS backend services and REST APIs",
+        "Designed database schemas and optimized TypeORM queries for performance",
+        "Integrated AI-driven insights and third-party services into backend workflows",
+        "Handled edge cases like retries, timeouts, and idempotent operations"
+      ],
+      technologies: ["Nest Js", "Gemini API", "TypeORM"]
+    },
+    {
+      title: "Backend Engineer",
+      company: "ADSVASE BY DeepRevAI",
       location: "Nigeria",
       period: "2025 - Present",
       description: [
-        "Provided comprehensive IT support within the office, ensuring smooth system operations",
-        "Managed and maintained the company website, improving functionality and performance",
-        "Developed new websites and internal software solutions to optimize company processes",
-        "Implemented security measures and system upgrades to enhance operational efficiency"
+        "Developed backend APIs for ad campaigns, tracking, and reportings",
+        "Built user profile management and group chat endpoints",
+        "Designed cookie/session systems for user tracking and personalization",
       ],
-      technologies: ["Web Development", "System Administration", "Database Management", "IT Support"]
+      technologies: ["Nest Js", "Socket.io", "TypeORM"]
     },
     {
       title: "Software Engineer Intern",
       company: "TEDFINANCE",
       location: "Nigeria",
-      period: "2025 - Present",
+      period: "2024 - 2025",
       description: [
         "Collaborated on the development of fintech applications, eCommerce platforms, and business solutions",
         "Designed and developed secure, high-performance software solutions for financial transactions",
@@ -65,10 +77,10 @@ const Resume: React.FC = () => {
       technologies: ["React", "Node.js", "Express", "MongoDB", "JavaScript"]
     },
     {
-      title: "Programming Instructor",
+      title: "Part-time Programming Instructor",
       company: "NIIT",
       location: "Nigeria",
-      period: "Aug 2023 - Oct 2024",
+      period: "2024 - present",
       description: [
         "Taught programming fundamentals and advanced concepts through interactive lessons",
         "Guided students in building real-world projects in Java, JavaScript, Python, and SQL",
