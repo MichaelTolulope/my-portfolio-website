@@ -114,7 +114,7 @@ const About: React.FC = () => {
                 className="space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed"
               >
                 <p>
-                  I'm an experienced full-stack developer with a passion for building innovative
+                  I'm an experienced Software Engineer with a passion for building innovative
                   web and mobile applications. With expertise in modern technologies like React,
                   Node.js, Python, and cloud platforms, I enjoy turning complex business requirements
                   into scalable, user-friendly solutions.
@@ -128,8 +128,7 @@ const About: React.FC = () => {
                 </p>
 
                 <p>
-                  Currently pursuing my BSc in Computer Science while working as an IT Executive
-                  and Software Engineer Intern, I'm committed to continuous learning and staying
+                  Currently pursuing my BSc in Computer Science while working as Software Engineer and an Educator, I'm committed to continuous learning and staying
                   at the forefront of technology trends to drive innovation in every project.
                 </p>
               </motion.div>
@@ -149,7 +148,7 @@ const About: React.FC = () => {
                 <div className="text-sm text-gray-600 dark:text-gray-400">Projects Completed</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold gradient-text">4</div>
+                <div className="text-2xl md:text-3xl font-bold gradient-text">6</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">Companies Worked</div>
               </div>
             </motion.div>

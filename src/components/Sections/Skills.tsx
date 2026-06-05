@@ -24,6 +24,7 @@ const Skills: React.FC = () => {
     // Backend
     { name: "Node.js", level: 90, category: "Backend" },
     { name: "Express.js", level: 88, category: "Backend" },
+    { name: "Nest.js", level: 88, category: "Backend" },
     { name: "Python", level: 85, category: "Backend" },
     { name: "Fast Api", level: 60, category: "Backend" },
     { name: "Java", level: 80, category: "Backend" },

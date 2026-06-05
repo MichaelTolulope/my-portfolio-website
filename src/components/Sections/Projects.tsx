@@ -7,6 +7,8 @@ import star_taskz from '../../assets/star-taskz.png'
 import mydahsoft from '../../assets/mydahsoft.png'
 import tedlab from '../../assets/tedlab.png'
 import dwm from '../../assets/dwm.png'
+import adsvaseImg from '../../assets/AdsvaseProjectPic.png'
+import groomImg from '../../assets/GroomProjectPic.png'
 
 interface Project {
   id: number;
@@ -27,6 +29,26 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
+      title: "Groom - AI Onboarding tool for SaaS",
+      description: "Groom uses AI to deliver smart, code-free onboarding that boosts conversions, slashes churn, and scales with your SaaS.",
+      image: groomImg,
+      technologies: ["Nest.js", "Next.js", "Postgre", "Socket.io", "Gemini API", "SDK building"],
+      githubUrl: "",
+      liveUrl: "https://usegroom.com",
+      category: "fullstack"
+    },
+    {
+      id: 2,
+      title: "Adsvase",
+      description: "A powerful web and mobile social media platform built to help you create ads, manage vases, track performance, and grow your audience effortlessly.",
+      image: adsvaseImg,
+      technologies: ["Nest.js", "Next.js", "Postgre", "Socket.io", "Adora AI (Our own Model)"],
+      githubUrl: "",
+      liveUrl: "https://waitlist.adsvase.com",
+      category: "backend"
+    },
+    {
+      id: 3,
       title: "Task & Project Management Solution Backend",
       description: "A comprehensive task and project management web app with real-time updates, user roles, and notifications. Built to streamline task assignment, progress tracking, and team collaboration.",
       image: star_taskz,
@@ -36,7 +58,7 @@ const Projects: React.FC = () => {
       category: "backend"
     },
     {
-      id: 2,
+      id: 4,
       title: "Suhstei",
       description: "Connect with fellow book lovers. Lend, borrow, and gift books in your neighborhood. Turn your bookshelf into a community library.",
       image: suhstei,
@@ -46,7 +68,7 @@ const Projects: React.FC = () => {
       category: "fullstack"
     },
     {
-      id: 3,
+      id: 5,
       title: "Quick Basket",
       description: "A fully functional online store for food with product listings, shopping cart, payment integration, and admin panel for inventory management.",
 
@@ -56,7 +78,7 @@ const Projects: React.FC = () => {
       category: "fullstack"
     },
     {
-      id: 4,
+      id: 6,
       title: "Troco Escro App",
       description: "This software makes sure that your transactions are easy and your money is safe with its user-friendly UI, cutting-edge security measures, and smooth experience.",
       image: troco,
@@ -66,7 +88,7 @@ const Projects: React.FC = () => {
       category: "frontend"
     },
     {
-      id: 5,
+      id: 7,
       title: "Mydahsoft Academy Learning Management System (LMS)",
       description: "A comprehensive LMS platform with course management, student tracking, content delivery, and progress analytics for educational institutions.",
       image: mydahsoft,
@@ -76,7 +98,7 @@ const Projects: React.FC = () => {
       category: "fullstack"
     },
     {
-      id: 6,
+      id: 8,
       title: "NGO Website Platform",
       description: "Multiple NGO websites built for awareness campaigns, donation management, and volunteer coordination with CMS integration and responsive design.",
 
@@ -86,7 +108,7 @@ const Projects: React.FC = () => {
       category: "frontend"
     },
     {
-      id: 7,
+      id: 9,
       title: "Ted Lab Website",
       description: "A company that offers varieties of tech services.",
       image: tedlab,
@@ -96,7 +118,7 @@ const Projects: React.FC = () => {
       category: "frontend"
     },
     {
-      id: 8,
+      id: 10,
       title: "Ted Finance",
       description: "A multi currency fintech solution Start-up",
 
@@ -106,7 +128,7 @@ const Projects: React.FC = () => {
       category: "frontend"
     },
     {
-      id: 9,
+      id: 11,
       title: "DWM Church Website",
       description: "A church website.",
       image: dwm,

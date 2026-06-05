@@ -83,7 +83,7 @@ const Hero: React.FC = () => {
 
   const socialLinks = [
     { icon: Github, href: 'https://github.com/michaeltolulope', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/michael-olagunju-a8616a279', label: 'LinkedIn' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/michael-tolulope-olagunju', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:olagunjum99@gmail.com', label: 'Email' },
     { icon: MessageCircle, href: 'https://wa.me/2348159538275?text=Hello%20I%20got%20your%20contact%20from%20the%20website', label: 'Whatsapp' }
   ];
@@ -138,7 +138,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.8 }}
             className="max-w-2xl mx-auto text-lg md:text-xl text-gray-600 dark:text-gray-400 leading-relaxed"
           >
-            Experienced software developer skilled in building web and mobile applications,
+            Experienced Software Engineer skilled in building web and mobile applications,
             managing websites, and delivering tailored software solutions. Passionate about
             problem-solving and continuous learning to drive innovation.
           </motion.p>
