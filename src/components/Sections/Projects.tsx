@@ -134,7 +134,7 @@ const Projects: React.FC = () => {
       image: dwm,
       technologies: ["React", "Supabase"],
       githubUrl: "https://github.com/MichaelTolulope",
-      liveUrl: "https://dwm-globe.onrender.com",
+      liveUrl: "https://dwmglobe.org",
       category: "fullstack"
     }
   ];
