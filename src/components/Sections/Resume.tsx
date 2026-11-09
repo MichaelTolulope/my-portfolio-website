@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Download, Calendar, MapPin, ExternalLink } from 'lucide-react';
-import resume from '../../assets/Resume-Michael-Olagunju.pdf';
+import resume from '../../assets/Michael-Olagunju-Resume.pdf';
 
 interface Experience {
   title: string;
@@ -66,7 +66,7 @@ const Resume: React.FC = () => {
     {
       title: "Web Developer",
       company: "MYDAHSOFT ICT Ltd.",
-      location: "Nigeria",
+      location: "Lagos, Nigeria",
       period: "2024 - 2025",
       description: [
         "Built and deployed web solutions tailored to client needs",
@@ -79,7 +79,7 @@ const Resume: React.FC = () => {
     {
       title: "Part-time Programming Instructor",
       company: "NIIT",
-      location: "Nigeria",
+      location: "Lagos, Nigeria",
       period: "2024 - present",
       description: [
         "Taught programming fundamentals and advanced concepts through interactive lessons",
@@ -281,7 +281,7 @@ const Resume: React.FC = () => {
             </motion.div>
 
             {/* Certifications */}
-            <motion.div variants={itemVariants}>
+            {/* <motion.div variants={itemVariants}>
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 flex items-center">
                 <div className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg mr-3"></div>
                 Certifications
@@ -289,10 +289,7 @@ const Resume: React.FC = () => {
               
               <div className="space-y-4">
                 {[
-                  "NIIT Full Stack Development Certificate",
-                  "Java Programming Certification",
-                  "Web Development Professional",
-                  "Database Management Systems"
+                  "NIIT Full Stack Development Certificate"
                 ].map((cert) => (
                   <motion.div
                     key={cert}
@@ -306,8 +303,8 @@ const Resume: React.FC = () => {
                   </motion.div>
                 ))}
               </div>
-            </motion.div>
-          </motion.div>
+            </motion.div> */}
+          </motion.div> 
         </div>
       </div>
     </section>

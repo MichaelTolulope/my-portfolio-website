@@ -67,16 +67,16 @@ const Projects: React.FC = () => {
       liveUrl: "https://bookworm-client.onrender.com",
       category: "fullstack"
     },
-    {
-      id: 5,
-      title: "Quick Basket",
-      description: "A fully functional online store for food with product listings, shopping cart, payment integration, and admin panel for inventory management.",
+    // {
+    //   id: 5,
+    //   title: "Quick Basket",
+    //   description: "A fully functional online store for food with product listings, shopping cart, payment integration, and admin panel for inventory management.",
 
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
-      githubUrl: "https://github.com/michaelolagnju",
-      liveUrl: "https://ecommerce-demo.com",
-      category: "fullstack"
-    },
+    //   technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
+    //   githubUrl: "https://github.com/michaelolagnju",
+    //   liveUrl: "https://ecommerce-demo.com",
+    //   category: "fullstack"
+    // },
     {
       id: 6,
       title: "Troco Escro App",
@@ -97,16 +97,16 @@ const Projects: React.FC = () => {
       liveUrl: "https://mydahsoftacademy.com",
       category: "fullstack"
     },
-    {
-      id: 8,
-      title: "NGO Website Platform",
-      description: "Multiple NGO websites built for awareness campaigns, donation management, and volunteer coordination with CMS integration and responsive design.",
+    // {
+    //   id: 8,
+    //   title: "NGO Website Platform",
+    //   description: "Multiple NGO websites built for awareness campaigns, donation management, and volunteer coordination with CMS integration and responsive design.",
 
-      technologies: ["React", "Next.js", "Strapi CMS", "PayPal API", "Vercel"],
-      githubUrl: "https://github.com/michaelolagnju",
-      liveUrl: "https://ngo-demo.com",
-      category: "frontend"
-    },
+    //   technologies: ["React", "Next.js", "Strapi CMS", "PayPal API", "Vercel"],
+    //   githubUrl: "https://github.com/michaelolagnju",
+    //   liveUrl: "https://ngo-demo.com",
+    //   category: "frontend"
+    // },
     {
       id: 9,
       title: "Ted Lab Website",
@@ -117,16 +117,16 @@ const Projects: React.FC = () => {
       liveUrl: "https://www.tedlab.co",
       category: "frontend"
     },
-    {
-      id: 10,
-      title: "Ted Finance",
-      description: "A multi currency fintech solution Start-up",
+    // {
+    //   id: 10,
+    //   title: "Ted Finance",
+    //   description: "A multi currency fintech solution Start-up",
 
-      technologies: ["React", "Next.js"],
-      githubUrl: "https://github.com/MichaelTolulope",
-      liveUrl: "#",
-      category: "frontend"
-    },
+    //   technologies: ["React", "Next.js"],
+    //   githubUrl: "https://github.com/MichaelTolulope",
+    //   liveUrl: "#",
+    //   category: "frontend"
+    // },
     {
       id: 11,
       title: "DWM Church Website",

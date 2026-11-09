@@ -144,7 +144,7 @@ const About: React.FC = () => {
                 <div className="text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold gradient-text">15+</div>
+                <div className="text-2xl md:text-3xl font-bold gradient-text">60+</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">Projects Completed</div>
               </div>
               <div className="text-center">
