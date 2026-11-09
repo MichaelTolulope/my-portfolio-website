@@ -313,7 +313,7 @@ const Projects: React.FC = () => {
             </motion.div>
           ))}
         </motion.div>
-        <div className="mt-6 p-4 rounded-xl 
+        {/* <div className="mt-6 p-4 rounded-xl 
   bg-gray-100/70 dark:bg-white/5 
   border border-gray-300/50 dark:border-white/10 
   text-sm text-gray-600 dark:text-gray-300 
@@ -322,7 +322,7 @@ const Projects: React.FC = () => {
             Note: Some projects have no images, live demos, or repo links because they
             are not yet launched or protected under NDA. Thanks for your understanding.
           </p>
-        </div>
+        </div> */}
 
       </div>
     </section>
