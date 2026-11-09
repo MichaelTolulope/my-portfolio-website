@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
       technologies: ["Nest.js", "Next.js", "Postgre", "Socket.io", "Gemini API", "SDK building"],
       githubUrl: "",
       liveUrl: "https://usegroom.com",
-      category: "fullstack"
+      category: "backend"
     },
     {
       id: 2,
